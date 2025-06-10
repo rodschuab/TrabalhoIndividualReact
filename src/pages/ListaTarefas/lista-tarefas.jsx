@@ -12,7 +12,7 @@ export default function Tarefas() {
   }
 
   return (
-    <div>
+    <div className="container">
       <input
         value={tarefa}
         onChange={(e) => setTarefa(e.target.value)}
