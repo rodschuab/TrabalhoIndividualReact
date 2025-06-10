@@ -1,0 +1,12 @@
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.link {
+  display: block;
+  margin: 10px;
+  text-decoration: none;
+  color: white
+}

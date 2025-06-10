@@ -1,0 +1,26 @@
+.tela {
+  height: 100vh; /* pra ocupar a tela toda */
+  width: 200vh;  /* pra ocupar a tela toda */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.claro {
+  background-color: white;
+  color: black;
+}
+
+.escuro {
+  background-color: black;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
