@@ -18,7 +18,7 @@ export default function Tarefas() {
         onChange={(e) => setTarefa(e.target.value)}
         placeholder="Digite uma tarefa"
       />
-      <button onClick={adicionarTarefa}>Adicionar</button>
+      <button onClick={adicionarTarefa}>Adicionar uma Tarefa </button>
 
       <ul>
         {lista.map((item, index) => (
